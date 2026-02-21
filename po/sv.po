@@ -1,9 +1,18 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 # Translators:
 # Daniel Nylander <po@danielnylander.se>, 2026
 # 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: beloningskartan 0.1.0\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-21 20:53+0100\n"
+"PO-Revision-Date: 2026-02-21 15:39+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305147/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -12,90 +21,91 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/beloningskartan/main.py:1
-msgid "%d of %d"
-msgstr "%d av %d"
-
-#: src/beloningskartan/main.py:2
-msgid "About Reward Chart"
-msgstr "Om Belöningskartan"
-
-#: src/beloningskartan/main.py:3
-msgid "Add"
-msgstr "Lägg till"
-
-#: src/beloningskartan/main.py:4
-msgid "Add Goal"
-msgstr "Lägg till mål"
-
-#: src/beloningskartan/main.py:5
-msgid "Brush teeth"
-msgstr "Borsta tänderna"
-
-#: src/beloningskartan/main.py:6
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: src/beloningskartan/main.py:7
-msgid "Date"
-msgstr "Datum"
-
-#: src/beloningskartan/main.py:8
-msgid "Details"
-msgstr "Detaljer"
-
-#: src/beloningskartan/main.py:9
-msgid "Enter goal name:"
-msgstr "Mata in målets namn:"
-
-#: src/beloningskartan/main.py:10
-msgid "Export"
-msgstr "Exportera"
-
-#: src/beloningskartan/main.py:11
-msgid "Get dressed"
-msgstr "Klä på sig"
-
-#: src/beloningskartan/main.py:12
-msgid "Goal reached!"
-msgstr "Målet uppnått!"
-
-#: src/beloningskartan/main.py:13
-msgid "My Goals"
-msgstr "Mina mål"
-
-#: src/beloningskartan/main.py:14
-msgid "New Goal"
-msgstr "Nytt mål"
-
-#: src/beloningskartan/main.py:15
-msgid "Quit"
-msgstr "Avsluta"
-
-#: src/beloningskartan/main.py:16
-msgid "Read a book"
-msgstr "Läsa en bok"
-
-#: src/beloningskartan/main.py:17
-msgid "Reset All"
-msgstr "Återställ alla"
-
-#: src/beloningskartan/main.py:18
-msgid "Result"
-msgstr "Resultat"
-
-#: src/beloningskartan/main.py:19
+#: src/export.py:11 src/main.py:63 src/main.py:76
 msgid "Reward Chart"
 msgstr "Belöningskartan"
 
-#: src/beloningskartan/main.py:20
+#: src/export.py:23
+msgid "Date"
+msgstr "Datum"
+
+#: src/export.py:23
+msgid "Details"
+msgstr "Detaljer"
+
+#: src/export.py:23
+msgid "Result"
+msgstr "Resultat"
+
+#: src/export.py:45 src/main.py:87
+msgid "Export"
+msgstr "Exportera"
+
+#: src/main.py:24
+msgid "Brush teeth"
+msgstr "Borsta tänderna"
+
+#: src/main.py:25
+msgid "Get dressed"
+msgstr "Klä på sig"
+
+#: src/main.py:26
 msgid "Tidy room"
 msgstr "Städa sitt rum"
 
-#: src/beloningskartan/main.py:21
+#: src/main.py:27
+msgid "Read a book"
+msgstr "Läsa en bok"
+
+#: src/main.py:88
+msgid "About Reward Chart"
+msgstr "Om Belöningskartan"
+
+#: src/main.py:89
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/main.py:93
 msgid "Toggle dark/light theme"
 msgstr "Växla mörkt/ljust tema"
 
-#: src/beloningskartan/main.py:22
+#: src/main.py:97
+msgid "My Goals"
+msgstr "Mina mål"
+
+#: src/main.py:110
+msgid "Add Goal"
+msgstr "Lägg till mål"
+
+#: src/main.py:118
+msgid "Reset All"
+msgstr "Återställ alla"
+
+#: src/main.py:168
+#, python-format
+msgid "%d of %d"
+msgstr "%d av %d"
+
+#: src/main.py:174
+msgid "Goal reached!"
+msgstr "Målet uppnått!"
+
+#: src/main.py:187
+msgid "New Goal"
+msgstr "Nytt mål"
+
+#: src/main.py:187
+msgid "Enter goal name:"
+msgstr "Mata in målets namn:"
+
+#: src/main.py:188
 msgid "e.g. Brush teeth"
 msgstr "t.ex. Borsta tänderna"
+
+#: src/main.py:190
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/main.py:191
+msgid "Add"
+msgstr "Lägg till"
