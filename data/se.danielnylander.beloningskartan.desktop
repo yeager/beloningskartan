@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Reward Chart
+Name[sv]=Belöningskartan
+GenericName=Reward Chart
+GenericName[sv]=Belöningskartan
+Comment=Visual reward system with stars and goals
+Comment[sv]=Visuellt belöningssystem med stjärnor och mål
+Exec=beloningskartan
+Icon=se.danielnylander.beloningskartan
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;Accessibility;
+Keywords=reward;stars;goals;motivation;autism;adhd;
+Keywords[sv]=belöning;stjärnor;mål;motivation;autism;adhd;

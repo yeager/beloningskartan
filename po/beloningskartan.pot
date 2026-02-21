@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the beloningskartan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: beloningskartan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-21 15:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: beloningskartan/export.py:13 beloningskartan/main.py:50
+#: beloningskartan/main.py:135 beloningskartan/main.py:227
+msgid "Reward Chart"
+msgstr ""
+
+#: beloningskartan/export.py:95
+msgid "Export"
+msgstr ""
+
+#: beloningskartan/export.py:95
+msgid "Choose export format:"
+msgstr ""
+
+#: beloningskartan/export.py:96 beloningskartan/main.py:161
+msgid "Cancel"
+msgstr ""
+
+#: beloningskartan/export.py:97
+msgid "CSV"
+msgstr ""
+
+#: beloningskartan/export.py:98
+msgid "JSON"
+msgstr ""
+
+#: beloningskartan/export.py:99
+msgid "PDF"
+msgstr ""
+
+#: beloningskartan/export.py:111
+msgid "Save Export"
+msgstr ""
+
+#: beloningskartan/export.py:132
+#, python-format
+msgid "Exported %s"
+msgstr ""
+
+#: beloningskartan/export.py:135
+#, python-format
+msgid "Export error: %s"
+msgstr ""
+
+#: beloningskartan/main.py:64 beloningskartan/main.py:149
+msgid "Add Goal"
+msgstr ""
+
+#: beloningskartan/main.py:69
+msgid "Export (Ctrl+E)"
+msgstr ""
+
+#: beloningskartan/main.py:74
+msgid "Export Progress"
+msgstr ""
+
+#: beloningskartan/main.py:75
+msgid "About Reward Chart"
+msgstr ""
+
+#: beloningskartan/main.py:76
+msgid "Quit"
+msgstr ""
+
+#: beloningskartan/main.py:89
+msgid "Your Goals"
+msgstr ""
+
+#: beloningskartan/main.py:94
+msgid "Earn stars by completing tasks!"
+msgstr ""
+
+#: beloningskartan/main.py:112
+msgid "Good job! +1⭐"
+msgstr ""
+
+#: beloningskartan/main.py:112
+msgid "Great! +3⭐"
+msgstr ""
+
+#: beloningskartan/main.py:112
+msgid "Amazing! +5⭐"
+msgstr ""
+
+#: beloningskartan/main.py:146
+#, python-format
+msgid "Added %d stars! Total: %d"
+msgstr ""
+
+#: beloningskartan/main.py:149
+msgid "What do you want to work towards?"
+msgstr ""
+
+#: beloningskartan/main.py:152
+msgid "Goal name (e.g. 'New toy')"
+msgstr ""
+
+#: beloningskartan/main.py:157
+msgid "Stars needed:"
+msgstr ""
+
+#: beloningskartan/main.py:162
+msgid "Add"
+msgstr ""
+
+#: beloningskartan/main.py:190
+msgid "Claim! 🎉"
+msgstr ""
+
+#: beloningskartan/main.py:210
+msgid "🎉 Goal claimed!"
+msgstr ""
+
+#: beloningskartan/main.py:231
+msgid "Visual reward system with stars and goals"
+msgstr ""
