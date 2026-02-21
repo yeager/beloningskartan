@@ -1,81 +1,94 @@
-# Translation template for beloningskartan
-# Copyright (C) 2026 Daniel Nylander
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: beloningskartan 0.1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 16:28+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: source
 msgid "%d of %d"
 msgstr ""
 
+#: source
 msgid "About Reward Chart"
 msgstr ""
 
+#: source
 msgid "Add"
 msgstr ""
 
+#: source
 msgid "Add Goal"
 msgstr ""
 
+#: source
 msgid "Brush teeth"
 msgstr ""
 
+#: source
 msgid "Cancel"
 msgstr ""
 
+#: source
 msgid "Date"
 msgstr ""
 
+#: source
 msgid "Details"
 msgstr ""
 
+#: source
 msgid "Enter goal name:"
 msgstr ""
 
+#: source
 msgid "Export"
 msgstr ""
 
+#: source
 msgid "Get dressed"
 msgstr ""
 
+#: source
 msgid "Goal reached!"
 msgstr ""
 
+#: source
 msgid "My Goals"
 msgstr ""
 
+#: source
 msgid "New Goal"
 msgstr ""
 
+#: source
 msgid "Quit"
 msgstr ""
 
+#: source
 msgid "Read a book"
 msgstr ""
 
+#: source
 msgid "Reset All"
 msgstr ""
 
+#: source
 msgid "Result"
 msgstr ""
 
+#: source
 msgid "Reward Chart"
 msgstr ""
 
+#: source
 msgid "Tidy room"
 msgstr ""
 
+#: source
 msgid "Toggle dark/light theme"
 msgstr ""
 
+#: source
 msgid "e.g. Brush teeth"
 msgstr ""
