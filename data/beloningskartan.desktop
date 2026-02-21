@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Reward Chart
+GenericName=Visual reward and goal tracking
+Comment=Visual reward and goal tracking
+Exec=beloningskartan
+Icon=beloningskartan
+Terminal=false
+Categories=Education;Accessibility;
+Keywords=autism;adhd;accessibility;children;
