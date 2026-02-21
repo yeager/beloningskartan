@@ -1,8 +1,10 @@
 [Desktop Entry]
 Type=Application
 Name=Reward Chart
+Name[sv]=Belöningskartan
 GenericName=Visual reward and goal tracking
 Comment=Visual reward and goal tracking
+Comment[sv]=Stjärnbaserad belöningstavla
 Exec=beloningskartan
 Icon=beloningskartan
 Terminal=false
