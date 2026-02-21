@@ -27,7 +27,7 @@ jobs:
           DIR="build/${PKG}_${VER}_all"
           mkdir -p "$DIR/DEBIAN"
           mkdir -p "$DIR/usr/lib/python3/dist-packages/beloningskartan"
-          mkdir -p "$DIR/usr/local/bin"
+          mkdir -p "$DIR/usr/bin"
           mkdir -p "$DIR/usr/share/applications"
           cp src/beloningskartan/*.py "$DIR/usr/lib/python3/dist-packages/beloningskartan/"
           # Compile translations
@@ -38,12 +38,12 @@ jobs:
             msgfmt "$po" -o "$DIR/usr/share/locale/$lang/LC_MESSAGES/beloningskartan.mo"
           done
           # Launcher
-          cat > "$DIR/usr/local/bin/beloningskartan" << 'LAUNCHER'
+          cat > "$DIR/usr/bin/beloningskartan" << 'LAUNCHER'
 #!/usr/bin/env python3
 from beloningskartan.main import main
 main()
 LAUNCHER
-          chmod 755 "$DIR/usr/local/bin/beloningskartan"
+          chmod 755 "$DIR/usr/bin/beloningskartan"
           # Desktop file
           [ -f "data/beloningskartan.desktop" ] && cp "data/beloningskartan.desktop" "$DIR/usr/share/applications/"
           cat > "$DIR/DEBIAN/control" << CTRL
