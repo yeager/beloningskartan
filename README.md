@@ -23,3 +23,10 @@ GPL-3.0
 ## Author
 
 Daniel Nylander — [danielnylander.se](https://danielnylander.se)
+
+## Screenshots
+
+![beloningskartan (English)](screenshots/beloningskartan_en.png)
+
+![beloningskartan (Svenska)](screenshots/beloningskartan_sv.png)
+
