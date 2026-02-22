@@ -113,11 +113,11 @@ msgstr "Lägg till"
 
 #: src/beloningskartan/main.py:263
 msgid "Welcome"
-msgstr ""
+msgstr "Välkommen"
 
 #: src/beloningskartan/main.py:269
 msgid "Welcome to Reward Chart"
-msgstr ""
+msgstr "Välkommen till Belöningskartan"
 
 #: src/beloningskartan/main.py:271
 msgid ""
@@ -128,7 +128,13 @@ msgid ""
 "✓ Customizable rewards\n"
 "✓ Positive reinforcement"
 msgstr ""
+"Motivera med stjärnor och mål.\n"
+"\n"
+"✓ Sätt upp mål och tjäna stjärnor\n"
+"✓ Visuell framstegsspårning\n"
+"✓ Anpassningsbara belöningar\n"
+"✓ Positiv förstärkning"
 
 #: src/beloningskartan/main.py:274
 msgid "Get Started"
-msgstr ""
+msgstr "Kom igång"
