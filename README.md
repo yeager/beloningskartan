@@ -1,12 +1,12 @@
-# Belöningskartan
+# Reward Chart
 
-Visuellt belöningssystem med stjärnor och mål.
+Visual reward system with stars and goals.
 
-GTK4/Adwaita · Python · v0.1.5 · 26 översättningsbara strängar
+GTK4/Adwaita · Python · v0.1.5 · 26 translatable strings
 
-Del av [Autismappar](https://autismappar.se) — fria verktyg för barn med autism, språkstörning och ADHD.
+Part of [Autismappar](https://autismappar.se) — free tools for children with autism, language disorders and ADHD.
 
-## Installation
+## Install
 
 ### Ubuntu / Debian
 ```bash
@@ -20,10 +20,10 @@ sudo dnf install beloningskartan
 ```
 Repo: [yeager/rpm-repo](https://github.com/yeager/rpm-repo)
 
-## Översättning
+## Translation
 
-Översätts via [Transifex](https://app.transifex.com/danielnylander/beloningskartan/). 11 språk.
+Translated via [Transifex](https://app.transifex.com/danielnylander/beloningskartan/). 11 languages.
 
-## Licens
+## License
 
 GPL-3.0-or-later · Daniel Nylander <daniel@danielnylander.se>
