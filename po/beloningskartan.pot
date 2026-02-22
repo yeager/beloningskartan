@@ -8,100 +8,123 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 20:53+0100\n"
+"POT-Creation-Date: 2026-02-22 06:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/export.py:11 src/main.py:63 src/main.py:76
+#: src/beloningskartan/export.py:11 src/beloningskartan/main.py:87
+#: src/beloningskartan/main.py:100
 msgid "Reward Chart"
 msgstr ""
 
-#: src/export.py:23
+#: src/beloningskartan/export.py:23
 msgid "Date"
 msgstr ""
 
-#: src/export.py:23
+#: src/beloningskartan/export.py:23
 msgid "Details"
 msgstr ""
 
-#: src/export.py:23
+#: src/beloningskartan/export.py:23
 msgid "Result"
 msgstr ""
 
-#: src/export.py:45 src/main.py:87
+#: src/beloningskartan/export.py:45 src/beloningskartan/main.py:111
 msgid "Export"
 msgstr ""
 
-#: src/main.py:24
+#: src/beloningskartan/main.py:25
 msgid "Brush teeth"
 msgstr ""
 
-#: src/main.py:25
+#: src/beloningskartan/main.py:26
 msgid "Get dressed"
 msgstr ""
 
-#: src/main.py:26
+#: src/beloningskartan/main.py:27
 msgid "Tidy room"
 msgstr ""
 
-#: src/main.py:27
+#: src/beloningskartan/main.py:28
 msgid "Read a book"
 msgstr ""
 
-#: src/main.py:88
+#: src/beloningskartan/main.py:112
 msgid "About Reward Chart"
 msgstr ""
 
-#: src/main.py:89
+#: src/beloningskartan/main.py:113
 msgid "Quit"
 msgstr ""
 
-#: src/main.py:93
+#: src/beloningskartan/main.py:117
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/main.py:97
+#: src/beloningskartan/main.py:121
 msgid "My Goals"
 msgstr ""
 
-#: src/main.py:110
+#: src/beloningskartan/main.py:134
 msgid "Add Goal"
 msgstr ""
 
-#: src/main.py:118
+#: src/beloningskartan/main.py:142
 msgid "Reset All"
 msgstr ""
 
-#: src/main.py:168
+#: src/beloningskartan/main.py:192
 #, python-format
 msgid "%d of %d"
 msgstr ""
 
-#: src/main.py:174
+#: src/beloningskartan/main.py:198
 msgid "Goal reached!"
 msgstr ""
 
-#: src/main.py:187
+#: src/beloningskartan/main.py:211
 msgid "New Goal"
 msgstr ""
 
-#: src/main.py:187
+#: src/beloningskartan/main.py:211
 msgid "Enter goal name:"
 msgstr ""
 
-#: src/main.py:188
+#: src/beloningskartan/main.py:212
 msgid "e.g. Brush teeth"
 msgstr ""
 
-#: src/main.py:190
+#: src/beloningskartan/main.py:214
 msgid "Cancel"
 msgstr ""
 
-#: src/main.py:191
+#: src/beloningskartan/main.py:215
 msgid "Add"
+msgstr ""
+
+#: src/beloningskartan/main.py:263
+msgid "Welcome"
+msgstr ""
+
+#: src/beloningskartan/main.py:269
+msgid "Welcome to Reward Chart"
+msgstr ""
+
+#: src/beloningskartan/main.py:271
+msgid ""
+"Motivate with stars and goals.\n"
+"\n"
+"✓ Set goals and earn stars\n"
+"✓ Visual progress tracking\n"
+"✓ Customizable rewards\n"
+"✓ Positive reinforcement"
+msgstr ""
+
+#: src/beloningskartan/main.py:274
+msgid "Get Started"
 msgstr ""
