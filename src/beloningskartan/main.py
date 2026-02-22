@@ -83,14 +83,14 @@ class RewardApp(Adw.Application):
             self.add_action(a)
             if accel: self.set_accels_for_action(f"app.{name}", [accel])
 
-    def _on_about(self, *_):
+    def _on_about(self, *_args):
         d = Adw.AboutDialog(application_name=_("Reward Chart"), application_icon="beloningskartan",
             version=__version__, developer_name="Daniel Nylander", website="https://www.autismappar.se",
             license_type=Gtk.License.GPL_3_0, developers=["Daniel Nylander"],
             copyright="\u00a9 2026 Daniel Nylander")
         d.present(self.props.active_window)
 
-    def _on_export(self, *_):
+    def _on_export(self, *_args):
         w = self.props.active_window
         if w: w.do_export()
 
@@ -207,7 +207,7 @@ class RewardWindow(Adw.ApplicationWindow):
         _save_goals(self.goals)
         self._refresh_goals()
 
-    def _on_add_goal(self, *_):
+    def _on_add_goal(self, *_args):
         d = Adw.MessageDialog(transient_for=self, heading=_("New Goal"), body=_("Enter goal name:"))
         entry = Gtk.Entry(placeholder_text=_("e.g. Brush teeth"))
         d.set_extra_child(entry)
@@ -227,7 +227,7 @@ class RewardWindow(Adw.ApplicationWindow):
         _save_goals(self.goals)
         self._refresh_goals()
 
-    def _on_reset(self, *_):
+    def _on_reset(self, *_args):
         for g in self.goals: g["progress"] = 0
         _save_goals(self.goals)
         self._refresh_goals()
@@ -240,7 +240,7 @@ class RewardWindow(Adw.ApplicationWindow):
         export_csv(data, os.path.join(CONFIG_DIR, f"export_{ts}.csv"))
         export_json(data, os.path.join(CONFIG_DIR, f"export_{ts}.json"))
 
-    def _toggle_theme(self, *_):
+    def _toggle_theme(self, *_args):
         mgr = Adw.StyleManager.get_default()
         mgr.set_color_scheme(Adw.ColorScheme.FORCE_LIGHT if mgr.get_dark() else Adw.ColorScheme.FORCE_DARK)
 
