@@ -30,32 +30,16 @@ jobs:
           mkdir -p "$DIR/usr/bin"
           mkdir -p "$DIR/usr/share/applications"
           cp src/beloningskartan/*.py "$DIR/usr/lib/python3/dist-packages/beloningskartan/"
-          # Compile translations
           for po in po/*.po; do
             [ -f "$po" ] || continue
             lang=$(basename "$po" .po)
             mkdir -p "$DIR/usr/share/locale/$lang/LC_MESSAGES"
             msgfmt "$po" -o "$DIR/usr/share/locale/$lang/LC_MESSAGES/beloningskartan.mo"
           done
-          # Launcher
-          cat > "$DIR/usr/bin/beloningskartan" << 'LAUNCHER'
-#!/usr/bin/env python3
-from beloningskartan.main import main
-main()
-LAUNCHER
+          printf '#!/usr/bin/env python3\nfrom beloningskartan.main import main\nmain()\n' > "$DIR/usr/bin/beloningskartan"
           chmod 755 "$DIR/usr/bin/beloningskartan"
-          # Desktop file
           [ -f "data/beloningskartan.desktop" ] && cp "data/beloningskartan.desktop" "$DIR/usr/share/applications/"
-          cat > "$DIR/DEBIAN/control" << CTRL
-Package: beloningskartan
-Version: $VER
-Section: utils
-Priority: optional
-Architecture: all
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Description: beloningskartan
-CTRL
+          printf 'Package: beloningskartan\nVersion: %s\nSection: utils\nPriority: optional\nArchitecture: all\nDepends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1\nMaintainer: Daniel Nylander <daniel@danielnylander.se>\nDescription: Reward chart for children\n' "$VER" > "$DIR/DEBIAN/control"
           dpkg-deb --build "$DIR"
       - name: Upload
         uses: softprops/action-gh-release@v2
