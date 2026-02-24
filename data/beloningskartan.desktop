@@ -8,5 +8,5 @@ Comment[sv]=Stjärnbaserad belöningstavla
 Exec=beloningskartan
 Icon=se.danielnylander.beloningskartan
 Terminal=false
-Categories=Education;Accessibility;
+Categories=Education;Accessibility;Autismappar
 Keywords=autism;adhd;accessibility;children;

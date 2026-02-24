@@ -9,6 +9,6 @@ Exec=beloningskartan
 Icon=se.danielnylander.beloningskartan
 Terminal=false
 Type=Application
-Categories=GNOME;GTK;Utility;Accessibility;
+Categories=GNOME;GTK;Utility;Accessibility;Autismappar
 Keywords=reward;stars;goals;motivation;autism;adhd;
 Keywords[sv]=belöning;stjärnor;mål;motivation;autism;adhd;
