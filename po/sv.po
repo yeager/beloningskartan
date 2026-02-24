@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: beloningskartan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 17:04+0100\n"
+"POT-Creation-Date: 2026-02-23 11:03+0100\n"
 "PO-Revision-Date: 2026-02-21 15:39+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305147/sv/)\n"
@@ -21,126 +21,10 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: beloningskartan/export.py:13 beloningskartan/main.py:50
-#: beloningskartan/main.py:135 beloningskartan/main.py:227
 #: src/beloningskartan/export.py:11 src/beloningskartan/main.py:88
-#: src/beloningskartan/main.py:101
+#: src/beloningskartan/main.py:107
 msgid "Reward Chart"
 msgstr "Belöningskartan"
-
-#: beloningskartan/export.py:95 src/beloningskartan/export.py:45
-#: src/beloningskartan/main.py:112
-msgid "Export"
-msgstr "Exportera"
-
-#: beloningskartan/export.py:95
-msgid "Choose export format:"
-msgstr "Välj exportformat:"
-
-#: beloningskartan/export.py:96 beloningskartan/main.py:161
-#: src/beloningskartan/main.py:215
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: beloningskartan/export.py:97
-msgid "CSV"
-msgstr "CSV"
-
-#: beloningskartan/export.py:98
-msgid "JSON"
-msgstr "JSON"
-
-#: beloningskartan/export.py:99
-msgid "PDF"
-msgstr "PDF"
-
-#: beloningskartan/export.py:111
-msgid "Save Export"
-msgstr "Spara export"
-
-#: beloningskartan/export.py:132
-#, python-format
-msgid "Exported %s"
-msgstr "Exporterade %s"
-
-#: beloningskartan/export.py:135
-#, python-format
-msgid "Export error: %s"
-msgstr "Exportfel: %s"
-
-#: beloningskartan/main.py:64 beloningskartan/main.py:149
-#: src/beloningskartan/main.py:135
-msgid "Add Goal"
-msgstr "Lägg till mål"
-
-#: beloningskartan/main.py:69
-msgid "Export (Ctrl+E)"
-msgstr "Exportera (Ctrl+E)"
-
-#: beloningskartan/main.py:74
-msgid "Export Progress"
-msgstr "Exportera framsteg"
-
-#: beloningskartan/main.py:75 src/beloningskartan/main.py:113
-msgid "About Reward Chart"
-msgstr "Om Belöningskartan"
-
-#: beloningskartan/main.py:76 src/beloningskartan/main.py:114
-msgid "Quit"
-msgstr "Avsluta"
-
-#: beloningskartan/main.py:89
-msgid "Your Goals"
-msgstr "Dina mål"
-
-#: beloningskartan/main.py:94
-msgid "Earn stars by completing tasks!"
-msgstr "Tjäna stjärnor genom att slutföra uppgifter!"
-
-#: beloningskartan/main.py:112
-msgid "Good job! +1⭐"
-msgstr "Bra jobbat! +1⭐"
-
-#: beloningskartan/main.py:112
-msgid "Great! +3⭐"
-msgstr "Fantastiskt! +3⭐"
-
-#: beloningskartan/main.py:112
-msgid "Amazing! +5⭐"
-msgstr "Otroligt bra! +5⭐"
-
-#: beloningskartan/main.py:146
-#, python-format
-msgid "Added %d stars! Total: %d"
-msgstr "Lade till %d stjärnor! Totalt: %d"
-
-#: beloningskartan/main.py:149
-msgid "What do you want to work towards?"
-msgstr "Vad vill du jobba fram till?"
-
-#: beloningskartan/main.py:152
-msgid "Goal name (e.g. 'New toy')"
-msgstr "Målets namn (t.ex. \"Ny leksak\")"
-
-#: beloningskartan/main.py:157
-msgid "Stars needed:"
-msgstr "Stjärnor som behövs:"
-
-#: beloningskartan/main.py:162 src/beloningskartan/main.py:216
-msgid "Add"
-msgstr "Lägg till"
-
-#: beloningskartan/main.py:190
-msgid "Claim! 🎉"
-msgstr "Du klarade det! 🎉"
-
-#: beloningskartan/main.py:210
-msgid "🎉 Goal claimed!"
-msgstr "🎉 Målet uppnått!"
-
-#: beloningskartan/main.py:231
-msgid "Visual reward system with stars and goals"
-msgstr "Visuellt belöningssystem med stjärnor och mål"
 
 #: src/beloningskartan/export.py:23
 msgid "Date"
@@ -153,6 +37,10 @@ msgstr "Detaljer"
 #: src/beloningskartan/export.py:23
 msgid "Result"
 msgstr "Resultat"
+
+#: src/beloningskartan/export.py:45 src/beloningskartan/main.py:118
+msgid "Export"
+msgstr "Exportera"
 
 #: src/beloningskartan/main.py:26
 msgid "Brush teeth"
@@ -170,48 +58,72 @@ msgstr "Städa sitt rum"
 msgid "Read a book"
 msgstr "Läsa en bok"
 
-#: src/beloningskartan/main.py:118
+#: src/beloningskartan/main.py:92
+msgid "Thanks to"
+msgstr "Tack till"
+
+#: src/beloningskartan/main.py:119
+msgid "About Reward Chart"
+msgstr "Om Belöningskartan"
+
+#: src/beloningskartan/main.py:120
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/beloningskartan/main.py:124
 msgid "Toggle dark/light theme"
 msgstr "Växla mörkt/ljust tema"
 
-#: src/beloningskartan/main.py:122
+#: src/beloningskartan/main.py:128
 msgid "My Goals"
 msgstr "Mina mål"
 
-#: src/beloningskartan/main.py:143
+#: src/beloningskartan/main.py:141
+msgid "Add Goal"
+msgstr "Lägg till mål"
+
+#: src/beloningskartan/main.py:149
 msgid "Reset All"
 msgstr "Återställ alla"
 
-#: src/beloningskartan/main.py:193
+#: src/beloningskartan/main.py:199
 #, python-format
 msgid "%d of %d"
 msgstr "%d av %d"
 
-#: src/beloningskartan/main.py:199
+#: src/beloningskartan/main.py:205
 msgid "Goal reached!"
 msgstr "Målet uppnått!"
 
-#: src/beloningskartan/main.py:212
+#: src/beloningskartan/main.py:218
 msgid "New Goal"
 msgstr "Nytt mål"
 
-#: src/beloningskartan/main.py:212
+#: src/beloningskartan/main.py:218
 msgid "Enter goal name:"
 msgstr "Mata in målets namn:"
 
-#: src/beloningskartan/main.py:213
+#: src/beloningskartan/main.py:219
 msgid "e.g. Brush teeth"
 msgstr "t.ex. Borsta tänderna"
 
-#: src/beloningskartan/main.py:264
+#: src/beloningskartan/main.py:221
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/beloningskartan/main.py:222
+msgid "Add"
+msgstr "Lägg till"
+
+#: src/beloningskartan/main.py:270
 msgid "Welcome"
 msgstr "Välkommen"
 
-#: src/beloningskartan/main.py:270
+#: src/beloningskartan/main.py:276
 msgid "Welcome to Reward Chart"
 msgstr "Välkommen till Belöningskartan"
 
-#: src/beloningskartan/main.py:272
+#: src/beloningskartan/main.py:278
 msgid ""
 "Motivate with stars and goals.\n"
 "\n"
@@ -227,6 +139,6 @@ msgstr ""
 "✓ Anpassningsbara belöningar\n"
 "✓ Positiv förstärkning"
 
-#: src/beloningskartan/main.py:275
+#: src/beloningskartan/main.py:281
 msgid "Get Started"
 msgstr "Kom igång"
