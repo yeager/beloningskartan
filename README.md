@@ -1,3 +1,5 @@
+> **⚠️ This app has been migrated to the Autismappar PWA at https://autismappar.se**
+
 # Belöningskartan
 
 Visual reward system with stars and goals for children with autism and ADHD.
@@ -29,4 +31,3 @@ Daniel Nylander — [danielnylander.se](https://danielnylander.se)
 ![beloningskartan (English)](screenshots/beloningskartan_en.png)
 
 ![beloningskartan (Svenska)](screenshots/beloningskartan_sv.png)
-
